@@ -13,7 +13,7 @@ project/
 └── main.py
 ```
 
-<font color="#f00">You can add any other _agent.py into Agents folder that inherit act() and reset() functions in base_agent.py</font>
+_You can add any other _agent.py into Agents folder that inherit act() and reset() functions in base_agent.py__
 
 # Installation
 ```
