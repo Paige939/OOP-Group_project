@@ -80,6 +80,8 @@ class Experiment:
         Run an episode and return total reward
         * render: if True and is supported by env-> show on the screen
         """
+        #Call the pre-episode for some agent(ex: CEM)
+        self.agent.pre_episode(self.env, self.episode_len)
         #Initialization
         self.agent.reset()
         obs=self.env.reset()

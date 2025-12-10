@@ -25,3 +25,9 @@ class Agent(ABC):
         Initialize when episode start
         """
         raise NotImplementedError
+    
+    def pre_episode(self, env, episode_len):
+        """
+        For some certain methods that need
+        """
+        pass
