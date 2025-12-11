@@ -24,14 +24,6 @@ _You can add any other _agent.py (ex: some algorithm implementation) into Agents
 
 # Installation
 
-# Introduction to Pendulum
-
-
-
-
-
-
-
 
 # Part 3: Pendulum Control with Deep Reinforcement Learning
 
